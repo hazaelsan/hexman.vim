@@ -177,15 +177,15 @@ if !hasmapto('<Plug>HexFind')
   map <unique> <Leader>hf <Plug>HexFind
 endif
 
-noremap <unique> <script> <Plug>HexManager <SID>Manager
-noremap <unique> <script> <Plug>HexDelete  <SID>Delete
-noremap <unique> <script> <Plug>HexInsert  <SID>Insert
-noremap <unique> <script> <Plug>HexGoto    <SID>Goto
-noremap <unique> <script> <Plug>HexNext    <SID>Next
-noremap <unique> <script> <Plug>HexPrev    <SID>Prev
-noremap <unique> <script> <Plug>HexToggle  <SID>Toggle
-noremap <unique> <script> <Plug>HexStatus  <SID>Status
-noremap <unique> <script> <Plug>HexFind    <SID>Find
+noremap <script> <Plug>HexManager <SID>Manager
+noremap <script> <Plug>HexDelete  <SID>Delete
+noremap <script> <Plug>HexInsert  <SID>Insert
+noremap <script> <Plug>HexGoto    <SID>Goto
+noremap <script> <Plug>HexNext    <SID>Next
+noremap <script> <Plug>HexPrev    <SID>Prev
+noremap <script> <Plug>HexToggle  <SID>Toggle
+noremap <script> <Plug>HexStatus  <SID>Status
+noremap <script> <Plug>HexFind    <SID>Find
 
 noremap <SID>Manager   :call <SID>HEX_Manager()<CR>
 noremap <SID>Delete    :call <SID>HEX_Delete()<CR>
